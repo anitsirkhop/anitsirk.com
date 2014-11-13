@@ -1,0 +1,92 @@
+/*-------------------------------------------
+  Global
+-------------------------------------------*/
+
+	body {
+		background-image: url(../images/ps_neutral.png);
+		font-family: "proxima-nova-1","proxima-nova-2",sans-serif;
+		font-style: normal;
+		font-weight: 100;
+		margin: 0;
+		padding: 0;
+	}
+
+
+
+	.social_nav {
+		text-align: center;
+	}
+
+	.made {
+		text-align: center;
+	}
+
+	h1 {
+		font-weight: normal;
+	}
+
+	h2 {
+		font-size: 38px;
+		line-height: 52px;
+		font-weight: normal;
+		padding: 80px;
+	}
+
+	h3 {
+		font-size: 22px;
+		font-weight: normal;
+		line-height: 32px;
+	}
+
+	a:link{
+		text-decoration: none;
+	}
+
+	a:hover {
+		text-decoration: none;
+		border-bottom: 1px dashed;
+		margin:0px;
+		padding-bottom: -10px;
+	}
+
+	h4 {
+		font-size: 15px;
+		font-style: italic;
+		font-weight: normal;
+	}
+
+	li {
+		padding-bottom: 10px;
+	}
+
+/*-------------------------------------------
+  Helpers
+-------------------------------------------*/
+
+	.clearfix:after {
+		clear: both;
+		content: '';
+		display: block;
+	}
+
+	.left {
+		float: left;
+	}
+
+	.right {
+		float: right;
+	}
+
+/*-------------------------------------------
+  Mobile - Min
+-------------------------------------------*/
+	/* !Header */
+	 .header .logo {
+		background-image: url(../images/kh_logo.png);
+		height: 108px;
+		overflow: hidden;
+		margin-top: 60px;
+		text-indent: 200%;
+		white-space: nowrap;
+		width: 148px;
+	}
